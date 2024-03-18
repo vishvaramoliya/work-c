@@ -3,9 +3,11 @@
 #include<stdio.h>
 main()
 {
-    int i=10;
-    do{
-        printf("\n%d",i);
-        i--;
-    }while (i>=1);
+    
+        for (int i = 10; i >=1; i--)
+        {
+            printf("\n %d",i);
+        }
+        
+
 }
